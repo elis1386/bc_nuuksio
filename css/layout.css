@@ -4,5 +4,21 @@ html{
 }
 .container
 {
-    max-width: 1024px;
+    width: 1024px;
+    margin: 2rem auto;
 }
+.logo
+{
+    max-width: 8%;
+    max-height: 8%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
