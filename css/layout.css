@@ -1,24 +1,81 @@
-html{
+body{
     font-size: 62.5%;
     font-family: 'Raleway', sans-serif;
 }
+/* Ensimainen näyttö*/
 .container
-{
-    width: 1024px;
-    margin: 2rem auto;
+{   
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .logo
+{  
+    max-width: 10%;
+    max-height: 10%;
+    margin: 1rem 0 1rem 0;
+}
+.titles
 {
-    max-width: 8%;
-    max-height: 8%;
-}
-nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    align-items: center;
 }
-ul{
-    display: flex;
-    flex-direction: row;
+.title a
+{
+    font-size: 1.4rem;
+    font-family: 'Raleway';
+    color: lightslategray;
+    margin-right: 1rem;
+    
 }
+.main-photo
+{
+    background: url(../images/photo_1box.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    opacity: 70%;
+
+}
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    margin: 20% 0 0 10%;
+
+}
+h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    margin: 35% 0 0 10%;
+
+}
+.main-button
+{
+    padding: 1rem 2rem;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(67, 65, 65);
+    font-size: 1rem;
+    position: absolute;
+    margin: 40% 0 0 10%;
+}
+
 
