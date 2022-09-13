@@ -187,7 +187,6 @@ h4{
     padding-bottom: 1rem;
     width: 50%;
     height: 100%;
-    
 }
 
 .text{
@@ -211,7 +210,6 @@ h4{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
 }
 
 .parentkuva > * {
@@ -241,7 +239,7 @@ h4{
 {
     background-color: #86776f;
     border-radius: 2rem;
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: white;
     padding: 1rem 2rem;
     text-decoration: none;
