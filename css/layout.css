@@ -358,13 +358,14 @@ h5 {
     text-align: left;
 }
 
-ul {
+.footertitles {
     text-align: left;
     flex-grow: 1;
 }
-li:hover {
+.footerli:hover, .listheading:hover{
     text-decoration: underline;
-} 
+}
+
 .socialmedia {
     background-color: whitesmoke;
     color:#86776F;
