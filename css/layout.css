@@ -132,7 +132,7 @@ h4{
     {
        margin: 70% 0 0 8%;
     }
-   
+       
 }
 @media screen and (max-width: 375px) {
     
@@ -160,6 +160,7 @@ h4{
   
    
 }
+
 
 /* Vasyl part*/
 
@@ -215,3 +216,239 @@ h4{
     margin-right: 8rem;
     padding: 1rem;
 }
+=======
+
+/* Leenan osa */
+
+/* Block 2 begin */
+
+.title-2-osa{
+    font-size: 2.4rem;
+    margin: 2rem;
+    font-weight: bolder;
+    color: orange;
+}
+
+
+.block-2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.box{
+    background-color: #86776f;
+    color: white;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.text{
+    padding-top: 1rem;   
+    margin-bottom: 1rem; 
+}
+
+.parentkuva img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 50%;
+    width: 300px;
+    height: 400px;
+}
+
+.parentkuva img:hover{
+    transform: scale(1.05);
+}
+
+.parentkuva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.parentkuva > * {
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+.readmore a{
+    background-color: #86776f;
+    border-radius: 2rem;
+    font-size: 2.4rem;
+    color: white;
+    padding: 1rem;
+}
+
+.readmore:hover{
+    background-color: white;
+    color: #86776f;
+}
+
+.linkki{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+.btn
+{
+    background-color: #86776f;
+    border-radius: 2rem;
+    font-size: 2.4rem;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background-color: white;
+    border: 1px solid #86776f;
+    color: #86776f;
+}
+
+
+.parentkuva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.parentkuva > *
+{
+    flex-basis: 100%;
+flex-grow: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .parentkuva {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .parentkuva > *
+    {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+
+   
+}
+
+@media only screen and (max-width: 425px) {
+    
+    .parentkuva {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .parentkuva > *
+    {
+        flex-basis: 100%;
+    flex-grow: 1;
+    }
+
+       
+}
+@media screen and (max-width: 375px) {
+    
+    
+    .parentkuva {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .parentkuva > *
+    {
+        flex-basis: 100%;
+    flex-grow: 1;
+    }
+   
+}
+
+/* Block 2 end */
+
+
+/* Sofian osa */
+
+.gridcontainer {
+    background-color: #86776F;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: 40% 60%;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+.footertext
+{
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.footerlists {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.2rem;
+    padding: 0 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.listheading {
+    font-size: 1.4rem;
+    margin: 1rem 1rem 1rem 0;
+    text-align: left;
+}
+
+.footertitles {
+    text-align: left;
+    flex-grow: 1;
+}
+.footerli:hover, .listheading:hover{
+    text-decoration: underline;
+}
+
+.socialmedia {
+    background-color: whitesmoke;
+    color:#86776F;
+    border-radius: 50%;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+}
+
+@media only screen and (min-width: 426px) {
+    .gridcontainer {
+        background-color: #86776F;
+        color: whitesmoke;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        gap: 1rem;
+    }
+
+    .footerlists {
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 2rem;
+    }
+    
+}
+
