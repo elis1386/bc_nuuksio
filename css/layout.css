@@ -178,6 +178,81 @@ h4{
 .words
 {
     max-width: 1024px;
+    margin: 2rem auto;
+}
+/* PAGE 3 IVAN  */
+
+
+.block3
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.block3-item
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   
+}
+.block3-item  > * {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+
+.block3-img1
+{
+    width: 512px;
+    height: 512px;
+}
+
+.block3-btn
+{
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    background-color: orange;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+.describe
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 2rem;
+}
+
+.describe h2{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: cornsilk;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.describe p
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    padding: 1rem;
+}
+.left
+{
+    background-color: #c57043;
+}
+
+.right{
+    background-color: #86776F;
+}
+=======
 }
 
 .new-class
