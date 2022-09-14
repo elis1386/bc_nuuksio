@@ -424,21 +424,18 @@ flex-grow: 1;
     grid-row: 40% 60%;
 }
 
-h5 {
-    font-size: 1.4rem;
-}
-
 .footertext
 {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding: 1rem;
-    margin: 1rem;
+    background-color: #86776F;
+    color: whitesmoke;
 }
 
 .footerlists {
     grid-column: 1;
     grid-row: 2;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding: 0 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -446,7 +443,7 @@ h5 {
 }
 
 .listheading {
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin: 1rem 1rem 1rem 0;
     text-align: left;
 }
@@ -455,7 +452,7 @@ h5 {
     text-align: left;
     flex-grow: 1;
 }
-.footerli:hover, .listheading:hover{
+.footerli:hover {
     text-decoration: underline;
 }
 
