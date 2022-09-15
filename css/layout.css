@@ -520,6 +520,7 @@ flex-grow: 1;
 /* Sofian osa */
 .gridcontainer {
     background-color: #86776F;
+    height: 600px;
     color: whitesmoke;
     display: grid;
     grid-template-columns: 100%;
