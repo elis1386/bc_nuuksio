@@ -5,8 +5,8 @@ body{
 /* Lizan osa*/
 .container
 {   
-    width: 100%;
-    max-width: 1040px;
+    width: 1240px;
+    max-width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -20,7 +20,7 @@ body{
 {  
     max-width: 10%;
     max-height: 10%;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 1rem;
 }
 .titles
 {
@@ -42,14 +42,18 @@ body{
 }
 .main-photo
 {
-    background: url(../images/photo_1box.jpeg);
+    background: url(../images/photo_1box_main.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    max-width: 100%;
+    width: 1240px;
     height: 600px;
     position: relative;
-    opacity: 70%;
 
+}
+.main-photo:hover
+{
+    opacity: 80%;
 }
 h1{
     font-size: 4rem;
@@ -57,13 +61,13 @@ h1{
     color: white;
     text-shadow: 1px 1px 2px black;
     position: absolute;
-    margin: 20% 0 0 10%;
+    margin: 15% 0 0 10%;
     transition: 2s;
 
 }
 h1:hover{
-    color: black;
-    text-shadow: 1px 1px 2px white;
+    color:  rgb(231, 165, 105);
+    text-shadow: 1px 1px 2px black;
 
 }
 h4{
@@ -72,7 +76,7 @@ h4{
     color: white;
     text-shadow: 1px 1px 2px black;
     position: absolute;
-    margin: 35% 0 0 10%;
+    margin: 30% 0 0 10%;
 
 }
 .main-button 
@@ -85,11 +89,12 @@ h4{
     color: #3E4F5E;
     font-size: 1rem;
     position: absolute;
-    margin: 40% 0 0 10%;
+    margin: 35% 0 0 10%;
 }
 .main-button:hover{
-    background-color: #3E4F5E;
-    color: white;
+    background-color:rgb(231, 165, 105);
+    border: 2px solid rgb(231, 165, 105);
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -182,19 +187,20 @@ h4{
 }
 /* PAGE 3 IVAN  */
 
-
 .block3
 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     box-sizing: border-box;
+    height: 1240px;
 }
 
 .block3-item
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 0;
    
 }
@@ -216,7 +222,7 @@ h4{
     padding: 1rem 2rem;
     background-color: rgb(231, 165, 105);
     text-decoration: none;
-    margin: 0 auto;
+    margin: auto;
     width: 30%;
     text-align: center;
     font-size: 1rem;
@@ -250,10 +256,12 @@ h4{
 .left
 {
     background-color: #c57043;
+    width: 100%;
 }
 
 .right{
     background-color: #86776F;
+    width: 100%;
 }
 /* Sashan osa */
 .new-class
@@ -297,13 +305,14 @@ h4{
 }
 
 .feedback-image{
-    background-image: url(../images/photo_4box.jpeg);
+    background-image: url(../images/box10main\ photo.jpg.webp);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 100%;
+    width: 100%;
     height: 500px;
     position: relative;
     opacity: 80%;
+    margin-top: 1rem;
 
 }
 
@@ -345,8 +354,7 @@ h4{
     font-size: 2.4rem;
     margin: 2rem;
     font-weight: bolder;
-    color: rgb(231, 165, 105);
-}
+    color: rgb(231, 165, 105);}
 
 
 .block-2{
@@ -358,23 +366,20 @@ h4{
 .box{
     background-color: #86776f;
     color: white;
-    margin: 2rem;
+    margin: 0 1rem;
     padding-bottom: 1rem;
-    width: 50%;
-    height: 100%;
+    width: 100%;
 }
 
 .text{
     padding-top: 1rem;   
     margin-bottom: 1rem; 
+    line-height: 2rem;
 }
 
 .parentkuva img {
     object-fit: cover;
-    max-width: 100%;
-    max-height: 50%;
-    width: 300px;
-    height: 400px;
+    width: 100%;
 }
 
 .parentkuva img:hover{
